@@ -1,5 +1,6 @@
 import 'package:angular/angular.dart';
 
+
 @Component(
   selector: 'hero-list',
   templateUrl: 'hero_list_component.html',

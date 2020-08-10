@@ -1,4 +1,3 @@
-
 class Hero {
   final int id;
   String name;
