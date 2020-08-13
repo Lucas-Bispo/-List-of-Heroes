@@ -1,14 +1,10 @@
 import 'package:angular/angular.dart';
 
-
-import 'src/little_tour_component.dart';
+import 'src/hero_form_component.dart';
 
 @Component(
   selector: 'my-app',
-  templateUrl: 'app_component.html',
-  directives: [
-
-    LittleTourComponent,
-  ],
+  template: '<hero-form></hero-form>',
+  directives: [HeroFormComponent],
 )
 class AppComponent {}
