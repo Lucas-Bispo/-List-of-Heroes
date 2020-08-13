@@ -2,7 +2,7 @@ import 'package:angular/angular.dart';
 
 import 'src/hero.dart';
 
-@Component(
+@Component(//meta dados 
   selector: 'my-app',
   template: '''
     <h1>{{title}}</h1>
@@ -23,7 +23,7 @@ class AppComponent {
     Hero(1, 'Windstorm'),
     Hero(13, 'Bombasto'),
     Hero(15, 'Magneta'),
-    Hero(20, 'Tornado')
+    Hero(20, 'Lucas')
   ];
   Hero get myHero => heroes.first;
 }
