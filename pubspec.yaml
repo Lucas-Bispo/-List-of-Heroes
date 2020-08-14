@@ -14,7 +14,7 @@ dev_dependencies:
   angular_test: any
   build_runner: any
   build_test: any
-  build_web_compilers: any
+  build_web_compilers: ^2.6.1
   mockito: any
   pageloader: any
   test: any
