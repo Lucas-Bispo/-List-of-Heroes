@@ -1,3 +1,4 @@
+ 
 name: angular_tour_of_heroes
 description: Tour of Heroes
 version: 0.0.1
@@ -8,11 +9,13 @@ environment:
 dependencies:
   angular: any
   angular_forms: any
+  angular_router: any
 
 dev_dependencies:
   angular_test: any
   build_runner: any
   build_test: any
-  build_web_compilers: ^2.6.1 
+  build_web_compilers: ^2.6.1
+  mockito: any
   pageloader: any
   test: any
