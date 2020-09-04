@@ -5,7 +5,7 @@ import 'hero.dart';
 import 'hero_service.dart';
 import 'hero_search_component.dart';
 import 'route_paths.dart';
-
+//teste
 @Component(
   selector: 'my-dashboard',
   templateUrl: 'dashboard_component.html',
