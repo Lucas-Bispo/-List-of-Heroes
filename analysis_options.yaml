@@ -1,3 +1,4 @@
+ 
 analyzer:
   exclude: [build/**, test/*.g.dart] # TODO(https://github.com/dart-lang/site-webdev/issues/1715): drop *.g.dart
   errors:

@@ -9,6 +9,8 @@ dependencies:
   angular: any
   angular_forms: any
   angular_router: any
+  http: any
+  stream_transform: any
 
 dev_dependencies:
   angular_test: any
