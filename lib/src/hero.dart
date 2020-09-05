@@ -1,4 +1,4 @@
-class Hero{ //Arquivo de lógica para mostrar herois
+class Hero {
   final int id;
   String name;
 
