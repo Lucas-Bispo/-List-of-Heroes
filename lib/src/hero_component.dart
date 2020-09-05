@@ -1,3 +1,4 @@
+
 import 'package:angular/angular.dart';
 import 'package:angular_forms/angular_forms.dart';
 
@@ -11,9 +12,10 @@ import 'hero.dart';
       <div><label>id: </label>{{hero.id}}</div>
       <div>
         <label>name: </label>
-        <input [(ngModel)]="hero.name" placeholder="name">
+        <input [(ngModel)]="hero.name" placeholder="name"/>
       </div>
-    </div>''',
+    </div>
+  ''',
   directives: [coreDirectives, formDirectives],
 )
 class HeroComponent {
